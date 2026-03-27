@@ -1,0 +1,181 @@
+
+   
+ 
+      @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+/* Variables globales de color y fondo */
+:root {
+    --accent: #6a1b9a;
+    --accent-light: #9c4dcc;
+    --text-dark: #1c1c1e;
+    --text-mid: #444;
+    --text-light: #666;
+    --bg-body: #f5f0fa;
+    --bg-card: #ffffff;
+    --border: #d9c8eb;
+}
+
+/* Estilos base */
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background: linear-gradient(135deg, #f5f0fa, #eef2ff);
+    margin: 0;
+    padding: 40px 20px;
+    color: var(--text-mid);
+}
+
+/* Tarjeta principal del CV */
+.contenedor-cv {
+    background-color: var(--bg-card);
+    width: 90%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 50px 45px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.10);
+    border-radius: 22px;
+    border: 1px solid var(--border);
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 28px;
+    margin-bottom: 32px;
+}
+
+/* Foto de perfil */
+.foto-perfil {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--accent);
+    margin-bottom: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 18px rgba(106, 27, 154, 0.25);
+}
+
+/* Nombre principal */
+header h1 {
+    font-family: 'Lora', serif;
+    color: var(--text-dark);
+    margin: 0 0 8px;
+    font-size: 34px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+/* Profesión */
+.profesion {
+    font-family: 'Lora', serif;
+    color: var(--accent-light);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+    font-size: 15px;
+}
+
+/* Contacto */
+.contacto {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--text-light);
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 28px;
+    background: #fcfbff;
+    border: 1px solid #eee6f7;
+    border-radius: 16px;
+    padding: 18px 20px;
+}
+
+/* Títulos de secciones */
+section h2 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: var(--accent);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+}
+
+/* Texto general */
+p,
+li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-mid);
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Negrita */
+li strong,
+.experiencia strong {
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+/* Subtexto */
+.sub {
+    color: var(--text-light);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Fechas y lugar */
+.fecha-lugar {
+    font-size: 14px;
+    color: var(--text-light);
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+/* Habilidades */
+.habilidades ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.habilidades li {
+    background: linear-gradient(135deg, #f2e8fb, #efe3ff);
+    border: 1px solid var(--border);
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 14px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: var(--text-light);
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+}
+    
+   
+    
+  
+     
